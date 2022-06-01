@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: roboto;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #36f;
+}
+
+.ellon-logo--div{
+    width: 400px;
+    height: 100%;
+    background-image: url(../img/logoEllon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    background-color: #36f;
+    box-shadow: #36f 10px 0 20px;
+}
+
+.cadastro--div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro--section{
+    width: 80%;
+    height: 65%;
+    padding: 50px;
+    background-color: white;
+    box-shadow: #0000004a 0 0 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.div--inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.infos-pessoais--div{
+    width: 50%;
+    height: 100%;
+}
+
+.contato--div{
+    width: 50%;
+    height: 100%;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+input,select{
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 5px 5px 0 0 ;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #36f;
+    transition: border 0.2s;
+}
+
+select{
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: white;
+    border-radius: 0;
+    border: none;
+    border-left: 2px solid #36f;
+}
+
+.botao-cadastrar{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #36f;
+    color: white;
+    font-weight: 300;
+    font-size: 20px; 
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.link--consulta--cadastro{
+    font-size: 20px; 
+    color: #36f;
+    margin-right: 20px;
+}
+
+
+.botao-cadastrar:hover{
+    transform: scale(1.05);
+}
+
+/* Página Cadastro */
+
+.input-pesquisa{
+    height: fit-content;
+    width: 100%;
+    background-image: url(https://adhp.org/wp-content/uploads/2018/12/adhp_noticias.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.cadastro--section--cadastro--page{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards--pessoas--ext-div{
+    border-radius: 10px;
+    background-color: #36f;
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+}
+
+.card--pessoas-int{
+    width: 85%;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.tag--consulta{
+    font-size: 20px;
+    color: #2f2f2f;
+}
+
+.tag--nome{
+    font-weight: 500;
+    text-align: end;
+}
+
+.flex--adjust{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nome{
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    width: fit-content;
+    background-color: #36f;
+    color: white;
+}
+
+.card--info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card--contato-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+}
+
+.div--flex--adjust{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.botao--excluir{
+    align-self: flex-end;
+    /* margin-right: 100px; */
+    padding: 5px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+.form-botao{
+    align-self: flex-end;
+}
+
+.section--deleta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 50%;
+    justify-content: center;
+}
+
+.div-botoes{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.botao--confirmacao{
+    padding: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+td{
+    padding: 2.5px;
+}
+
+.cards--pessoas--ext-div::-webkit-scrollbar {
+    width: 15px;             
+  }
+  
+  .cards--pessoas--ext-div::-webkit-scrollbar-track {
+    background: #36f;    
+  }
+  
+  .cards--pessoas--ext-div::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 20px;       
+    border-right: solid 3px #36f;
+  }
+
+/* -------------------------------------------------------- */
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

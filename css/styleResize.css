@@ -1,0 +1,82 @@
+@media only screen and (max-width: 958px){
+    .ellon-logo--div{
+        display: none;
+    }
+
+    .cadastro--section {
+        width: 80%;
+        height: fit-content;
+        padding: 50px;
+        background-color: white;
+        box-shadow: #0000004a 0 0 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .cadastro--div {
+        height: fit-content;
+    }
+    h1{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .div--inputs{
+        width: 100%;
+    }
+
+    .infos-pessoais--div,.contato--div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .botoes--bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .link--consulta--cadastro{
+        margin-top: 10px;
+    }
+
+    .h1--consulta{
+        width: 80%;
+    }
+
+    .card--pessoas-int {
+        height: 400px;
+    }
+
+    .div--flex--adjust {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .tag--consulta{
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .cadastro--section{
+        height: 100%;
+    }
+
+    .h1--confirma-exlusao{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    main{
+        align-items: center;
+    }
+
+    .div-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
